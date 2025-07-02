@@ -19,6 +19,9 @@ flood.value = ones(25,1)*-1;
 flood.value(flood.start) = 0; 
 flood.wave = ones(2,10)*-1;
 flood.wave(1,1) = 1;
+% flood.wave(1,2) = 121;
+% flood.wave(1,3) = 136;
+% flood.wave(1,4) = 137;
 %
 count = 1; % flood flows from cell 1
 tmp_count = 0;
